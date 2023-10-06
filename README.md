@@ -155,6 +155,3 @@ puts result[0] # Output: "o\nWo"
 ## Conclusion
 
 Thank you for reading the Regular Expressions README. With this knowledge and the provided code examples, you are well-equipped to leverage regular expressions in your programming projects. Regular expressions are versatile tools that can greatly simplify text processing tasks. Happy coding!
-```
-
-Feel free to copy and paste this Markdown into your project's README file.
