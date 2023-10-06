@@ -116,3 +116,45 @@ const text = "The price is $20.99";
 const pattern = /\d+/; // Matches one or more digits
 const result = text.match(pattern);
 console.log(result); // Output: ["20", "99"]
+```
+
+### Case-Insensitive Search
+
+```python
+import re
+
+text = "Hello World"
+pattern = re.compile("world", re.IGNORECASE)  # Case-insensitive search
+result = pattern.search(text)
+print(result.group())  # Output: "World"
+```
+
+### Using Word Boundary
+
+```java
+String text = "I love regex!";
+String pattern = "\\blove\\b"; // Matches "love" as a whole word
+Pattern regex = Pattern.compile(pattern);
+Matcher matcher = regex.matcher(text);
+if (matcher.find()) {
+    System.out.println(matcher.group()); // Output: "love"
+}
+```
+
+### Dot All Flag
+
+```ruby
+text = "Hello\nWorld"
+pattern = /o.ll/s # Dot matches any character, including line terminators
+result = text.match(pattern)
+puts result[0] # Output: "o\nWo"
+```
+
+---
+
+## Conclusion
+
+Thank you for reading the Regular Expressions README. With this knowledge and the provided code examples, you are well-equipped to leverage regular expressions in your programming projects. Regular expressions are versatile tools that can greatly simplify text processing tasks. Happy coding!
+```
+
+Feel free to copy and paste this Markdown into your project's README file.
